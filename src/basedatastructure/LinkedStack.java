@@ -6,21 +6,21 @@ package basedatastructure;
  */
 public class LinkedStack<E> implements EasyStack<E> {
 
-    private Node first;
+    private Node<E> first;
 
     @Override
     public void push(E e) {
-        Node node = new Node(e);
-        Node current = first;
+        Node<E> node = new Node<>(e);
+        Node<E> current = first;
         first = node;
         first.setNext(current);
     }
 
     @Override
     public E pop() {
-        Node current = first;
+        Node<E> current = first;
         if(current != null) {
-            Node next = current.getNext();
+            Node<E> next = current.getNext();
             first = next;
             Object obj = current.getElement();
             if(obj != null)  {
@@ -32,9 +32,9 @@ public class LinkedStack<E> implements EasyStack<E> {
         return null;
     }
 
-    private static class Node<E> {
+    private class Node<E> {
         E element;
-        Node next;
+        Node<E> next;
 
         Node(E e) {
             element = e;
@@ -44,7 +44,7 @@ public class LinkedStack<E> implements EasyStack<E> {
             return element;
         }
 
-        private void setNext(Node next) {
+        private void setNext(Node<E> next) {
             this.next = next;
         }
 
@@ -52,7 +52,7 @@ public class LinkedStack<E> implements EasyStack<E> {
             element = e;
         }
 
-        private Node getNext() {
+        private Node<E> getNext() {
             return next;
         }
     }

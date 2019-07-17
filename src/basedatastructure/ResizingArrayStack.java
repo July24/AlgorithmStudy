@@ -1,8 +1,5 @@
 package basedatastructure;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-
 /**
  * Resizing array implement Stack.
  * @author yehaoyu
