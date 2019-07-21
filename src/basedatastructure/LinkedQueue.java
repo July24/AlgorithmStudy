@@ -29,6 +29,7 @@ public class LinkedQueue<E> implements EasyQueue<E> {
             this.first = first.getNext();
             return first.getElement();
         } else {
+            this.last = null;
             return null;
         }
     }
