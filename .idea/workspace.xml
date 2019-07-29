@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b46bd6-0b7e-420b-8b7b-5ca48ad8d942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Util/SortUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BaseMergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BottomUpMergeImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeClassicImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeClassicUpdateImp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Util/SortUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/BaseMergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/BottomUpMergeImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeClassicImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/MergeUpdateImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Util/SortUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Util/SortUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeClassicImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeClassicImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeClassicUpdateImp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Util/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util/SortUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/MergeClassicImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/MergeClassicImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +104,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Util.SortUtil" />
+      <module name="AlgorithmStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basedatastructure.Test" />
       <module name="AlgorithmStudy" />
@@ -149,6 +159,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.SortUtil" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.ResizingArrayStack" />
         <item itemvalue="Application.Test" />
@@ -176,7 +187,8 @@
       <workItem from="1564038041951" duration="308000" />
       <workItem from="1564038444748" duration="2145000" />
       <workItem from="1564102932129" duration="7188000" />
-      <workItem from="1564278371697" duration="7803000" />
+      <workItem from="1564278371697" duration="9437000" />
+      <workItem from="1564363907833" duration="7986000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习">
       <created>1563328799441</created>
@@ -199,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563701392834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="归并排序">
+      <created>1564293716607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564293716607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -231,18 +250,8 @@
     <MESSAGE value="算法学习" />
     <MESSAGE value="新增Queue实现" />
     <MESSAGE value="选择排序，插入排序，希尔排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="选择排序，插入排序，希尔排序" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/Test.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="归并排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并排序" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

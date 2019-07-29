@@ -18,7 +18,7 @@ public class MergeClassicImp extends BaseMergeSort {
             return;
         }
         int mid = i + (j - i)/2;
-        recursionSort(comp, 0, mid);
+        recursionSort(comp, i, mid);
         recursionSort(comp, mid + 1, j);
         merge(comp, i, mid, j);
     }

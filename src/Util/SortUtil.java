@@ -1,9 +1,6 @@
 package Util;
 
-import sort.InsertionSort;
-import sort.SelectionSort;
-import sort.ShellSort;
-import sort.Sortible;
+import sort.*;
 
 /**
  * 排序工具类
@@ -24,8 +21,16 @@ public class SortUtil {
         sortAlg = new ShellSort();
     }
 
+    public static void useClassicMergeSort() {
+        sortAlg = new MergeClassicImp();
+    }
+
+    public static void useBottomUpMergeSort() {
+        sortAlg = new BottomUpMergeImp();
+    }
+
     public static void sortSelf(Comparable[] comp) {
-        if(!notEmpty(comp)) {
+        if(!empty(comp)) {
             return;
         }
         if(sortAlg == null) {
@@ -34,8 +39,22 @@ public class SortUtil {
         sortAlg.sort(comp);
     }
 
-    public static Comparable[] getSortible(Comparable[] comp) {
-        if(!notEmpty(comp)) {
+    public static void sortSelfPart(Comparable[] comp, int i, int j) {
+        if (empty(comp) || i < 0 || j >= comp.length) {
+            return;
+        }
+        if (sortAlg == null) {
+            useInsertionSort();
+        }
+        int length = j - i + 1;
+        Comparable[] copy = new Comparable[length];
+        System.arraycopy(comp, i, copy, 0, length);
+        sortAlg.sort(copy);
+        System.arraycopy(copy, 0, comp, i, length);
+    }
+
+    public static Comparable[] getSortArray(Comparable[] comp) {
+        if(!empty(comp)) {
             return null;
         }
         if(sortAlg == null) {
@@ -48,7 +67,7 @@ public class SortUtil {
         return aux;
     }
 
-    private static boolean notEmpty(Comparable[] comp) {
+    private static boolean empty(Comparable[] comp) {
         return comp == null || comp.length == 0;
     }
 }
