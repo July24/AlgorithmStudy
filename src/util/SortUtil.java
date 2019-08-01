@@ -1,4 +1,4 @@
-package Util;
+package util;
 
 import sort.*;
 
@@ -27,6 +27,14 @@ public class SortUtil {
 
     public static void useBottomUpMergeSort() {
         sortAlg = new BottomUpMergeImp();
+    }
+
+    public static void useQuickSort() {
+        sortAlg = new QuickSort();
+    }
+
+    public static void useQuick3WaySort() {
+        sortAlg = new Quick3WaySort();
     }
 
     public static void sortSelf(Comparable[] comp) {
