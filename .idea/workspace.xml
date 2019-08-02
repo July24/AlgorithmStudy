@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b46bd6-0b7e-420b-8b7b-5ca48ad8d942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/BaseQuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/Quick3WaySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/QuickSortUpdateImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/Util/SortUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/Util/SortUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeUpdateImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/MergeUpdateImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BaseQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BaseQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSelection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SortUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/MergeUpdateImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/MergeUpdateImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -193,7 +191,8 @@
       <workItem from="1564278371697" duration="9437000" />
       <workItem from="1564363907833" duration="8897000" />
       <workItem from="1564538034964" duration="4523000" />
-      <workItem from="1564622416726" duration="6562000" />
+      <workItem from="1564622416726" duration="7064000" />
+      <workItem from="1564711323989" duration="1364000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习">
       <created>1563328799441</created>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564379531930</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="快速排序，三向切分快速排序，快速选择">
+      <created>1564638059098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564638059098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -264,7 +270,8 @@
     <MESSAGE value="选择排序，插入排序，希尔排序" />
     <MESSAGE value="归并排序" />
     <MESSAGE value="归并排序优化实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="归并排序优化实现" />
+    <MESSAGE value="快速排序，三向切分快速排序，快速选择" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速排序，三向切分快速排序，快速选择" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
