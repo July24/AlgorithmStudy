@@ -4,7 +4,7 @@ package sort;
  * 归并排序
  * @author 叶皓宇
  */
-public abstract class BaseMergeSort extends BaseSortAlgorithm {
+public abstract class BaseMergeSort extends AbstractSortAlgorithm {
     Comparable[] aux;
 
     void merge(Comparable[] comp, int low , int mid, int high) {

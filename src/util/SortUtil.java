@@ -7,7 +7,7 @@ import sort.*;
  * @author 叶皓宇
  */
 public class SortUtil {
-    private static Sortible sortAlg;
+    private static AbstractSortAlgorithm sortAlg;
 
     public static void useSelectionSort() {
         sortAlg = new SelectionSort();

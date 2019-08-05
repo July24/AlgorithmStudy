@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b46bd6-0b7e-420b-8b7b-5ca48ad8d942" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/QuickSortUpdateImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basedatastructure/AbstractPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basedatastructure/BinaryHeapImpPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basedatastructure/QueueType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basedatastructure/TraverseImpPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/AbstractSortAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/CompareOperator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BaseQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/BaseQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSelection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AlgorithmStudy/sort/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSelection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basedatastructure/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basedatastructure/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BaseMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BaseMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BaseQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/BaseQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/BaseSortAlgorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Sortible.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sort/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/SortUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SortUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -91,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="AlgorithmStudy" />
@@ -159,10 +168,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.SortUtil" />
-        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.ResizingArrayStack" />
       </list>
     </recent_temporary>
@@ -192,7 +201,9 @@
       <workItem from="1564363907833" duration="8897000" />
       <workItem from="1564538034964" duration="4523000" />
       <workItem from="1564622416726" duration="7064000" />
-      <workItem from="1564711323989" duration="1364000" />
+      <workItem from="1564711323989" duration="4386000" />
+      <workItem from="1564879468172" duration="1108000" />
+      <workItem from="1564966537744" duration="11735000" />
     </task>
     <task id="LOCAL-00001" summary="算法学习">
       <created>1563328799441</created>
@@ -236,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564638059098</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="快速排序优化版">
+      <created>1564712730864</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1564712730864</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -271,7 +289,19 @@
     <MESSAGE value="归并排序" />
     <MESSAGE value="归并排序优化实现" />
     <MESSAGE value="快速排序，三向切分快速排序，快速选择" />
-    <option name="LAST_COMMIT_MESSAGE" value="快速排序，三向切分快速排序，快速选择" />
+    <MESSAGE value="快速排序优化版" />
+    <option name="LAST_COMMIT_MESSAGE" value="快速排序优化版" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/basedatastructure/Test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

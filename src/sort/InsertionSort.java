@@ -4,7 +4,7 @@ package sort;
  * Insertion sort.
  * @author yehaoyu
  */
-public class InsertionSort extends BaseSortAlgorithm {
+public class InsertionSort extends AbstractSortAlgorithm {
     @Override
     public void sort(Comparable[] comp) {
         int length = comp.length;

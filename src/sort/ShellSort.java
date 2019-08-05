@@ -12,7 +12,7 @@ package sort;
  * 1,5,19,41,109,209,505...
  * @author yehaoyu
  */
-public class ShellSort extends BaseSortAlgorithm {
+public class ShellSort extends AbstractSortAlgorithm {
     @Override
     public void sort(Comparable[] comp) {
         int length = comp.length;

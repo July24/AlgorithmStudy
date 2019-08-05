@@ -1,6 +1,6 @@
 package sort;
 
-public abstract class BaseQuickSort extends BaseSortAlgorithm {
+public abstract class BaseQuickSort extends AbstractSortAlgorithm {
     @Override
     public void sort(Comparable[] comp) {
         shuffle(comp);

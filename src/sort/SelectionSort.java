@@ -4,7 +4,7 @@ package sort;
  * Selection sort.
  * @author yehaoyu
  */
-public class SelectionSort extends BaseSortAlgorithm {
+public class SelectionSort extends AbstractSortAlgorithm {
     @Override
     public void sort(Comparable[] comp) {
         int length = comp.length;

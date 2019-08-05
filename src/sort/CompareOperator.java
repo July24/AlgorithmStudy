@@ -1,10 +1,10 @@
 package sort;
 
 /**
- * Base sort class.
- * @author yehaoyu
+ * Comparable类操作器
+ * @author 叶皓宇
  */
-public abstract class BaseSortAlgorithm implements Sortible{
+public class CompareOperator {
     protected boolean less(Comparable first, Comparable second) {
         return first.compareTo(second) < 0;
     }
