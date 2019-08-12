@@ -2,9 +2,9 @@ package sort;
 
 public class Test {
     public static void main(String[] args) {
-        AbstractSortAlgorithm selectionSort = new QuickSortUpdateImp();
-        Integer[] array = new Integer[1000];
-        for (int i = 0; i < 1000; i++) {
+        AbstractSortAlgorithm selectionSort = new HeapSort();
+        Integer[] array = new Integer[100];
+        for (int i = 0; i < 100; i++) {
             array[i] = (int)(Math.random()*2000);
         }
         selectionSort.sort(array);

@@ -7,7 +7,7 @@ package sort;
  * 一个指针i使a[lt->i-1]中的元素都等于v，a[i->gt]的元素未排序
  * 处理方法：
  *      a[i]<v，将a[lt]和a[i]交换，将lt和i加一
- *      a[i]>v，将a[gt]和a[i]交换，将a[gt]减一
+ *      a[i]>v，将a[gt]和a[i]交换，将gt减一
  *      a[i]=v，将i加一
  * @author 叶皓宇
  */
