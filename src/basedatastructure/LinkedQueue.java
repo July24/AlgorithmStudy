@@ -34,6 +34,17 @@ public class LinkedQueue<E> implements EasyQueue<E> {
         }
     }
 
+    @Override
+    public int size() {
+        int i = 0;
+        Node<E> e = first;
+        while(e != null) {
+            i++;
+            e = first.next;
+        }
+        return i;
+    }
+
     private class Node<E> {
         E element;
         Node<E> next;

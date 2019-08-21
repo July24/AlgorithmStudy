@@ -44,6 +44,11 @@ public class ResizingArrayQueue<E> implements EasyQueue<E>{
         }
     }
 
+    @Override
+    public int size() {
+        return tailPtr - headPtr;
+    }
+
     private void arrangeArray(int bgn, int end) {
         for(int i = bgn, j = 0; i < end; i++,j++) {
             elements[j] = elements[i];

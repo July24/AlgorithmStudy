@@ -11,11 +11,18 @@ public abstract class AbstractSymbolTable<Key,Value>{
 
     public abstract Value get(Key key);
 
-    public abstract void delete(Key key);
+    public void delete(Key key) {
+        put(key, null);
+    }
 
-    public abstract boolean contains(Key key);
+    public boolean contains(Key key) {
+        return get(key) != null;
+    }
 
-    public abstract boolean isEmpty();
+
+    public  boolean isEmpty() {
+        return size() == 0;
+    }
 
     public abstract int size();
 
