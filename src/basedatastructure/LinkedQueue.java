@@ -8,10 +8,12 @@ public class LinkedQueue<E> implements EasyQueue<E> {
 
     private Node<E> first;
     private Node<E> last;
+    private int N;
 
     @Override
     public void enqueue(E e) {
         Node<E> node  = new Node<>(e);
+        N++;
         if(this.first == null) {
             this.first = node;
             this.last  = node;
@@ -26,6 +28,7 @@ public class LinkedQueue<E> implements EasyQueue<E> {
     public E dequeue() {
         Node<E> first = this.first;
         if(first != null) {
+            N--;
             this.first = first.getNext();
             return first.getElement();
         } else {
@@ -36,13 +39,7 @@ public class LinkedQueue<E> implements EasyQueue<E> {
 
     @Override
     public int size() {
-        int i = 0;
-        Node<E> e = first;
-        while(e != null) {
-            i++;
-            e = first.next;
-        }
-        return i;
+        return N;
     }
 
     private class Node<E> {
