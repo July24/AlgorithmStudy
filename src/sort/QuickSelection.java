@@ -4,7 +4,6 @@ package sort;
  * 找到一串无序数列中第几小的数
  * 方法：通过快速排序的分区算法，不需要完全排序就可以找到第几小的数
  * 平均时间复杂度：N
- * @author 叶皓宇
  */
 public class QuickSelection {
     private QuickSort quickSort;

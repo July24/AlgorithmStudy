@@ -2,7 +2,6 @@ package basedatastructure;
 
 /**
  * Linked list implement queue.
- * @author yehaoyu
  */
 public class LinkedQueue<E> implements EasyQueue<E> {
 

@@ -2,7 +2,6 @@ package sort;
 
 /**
  * Comparable类操作器
- * @author 叶皓宇
  */
 public class CompareOperator {
     protected boolean less(Comparable first, Comparable second) {

@@ -2,7 +2,6 @@ package unionfind;
 
 /**
  * Quick find algorithm.
- * @author yehaoyu
  */
 public class QuickFind extends BaseUnionFindAlgorithm{
 

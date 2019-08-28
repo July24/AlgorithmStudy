@@ -3,7 +3,6 @@ package sort;
 /**
  * 归并排序经典实现。
  *  将数组无限二分成只有一个数的数组后，在两两合并
- * @author 叶皓宇
  */
 public class MergeClassicImp extends BaseMergeSort {
 

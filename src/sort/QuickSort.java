@@ -9,7 +9,6 @@ package sort;
  *      当两个扫描指针相遇时，将待排序元素与从右向左的指针位置元素交换并返回指针位置
  * 3.递归排序左侧，右侧
  * 平均时间复杂度:NlogN
- * @author 叶皓宇
  */
 public class QuickSort extends BaseQuickSort {
     @Override

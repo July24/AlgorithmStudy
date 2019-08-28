@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 /**
  * 抽象键有序符号表
- * @author 叶皓宇
  */
 public abstract class AbstractKeyOrderedSymbolTable<Key extends Comparable<Key>, Value> extends AbstractSymbolTable<Key, Value> {
     public abstract Key min();

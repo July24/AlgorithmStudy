@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 /**
  * 用两个数组实现符号表
- * @author 叶皓宇
  */
 public class ParallelArrayST<Key extends Comparable<Key>, Value> extends AbstractSymbolTable<Key, Value> {
     Key[] keys;

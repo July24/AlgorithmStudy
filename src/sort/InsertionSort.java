@@ -2,7 +2,6 @@ package sort;
 
 /**
  * Insertion sort.
- * @author yehaoyu
  */
 public class InsertionSort extends AbstractSortAlgorithm {
     @Override

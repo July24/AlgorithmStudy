@@ -2,7 +2,6 @@ package basedatastructure;
 
 /**
  * Linked list implement stack.
- * @author yehaoyu
  */
 public class LinkedStack<E> implements EasyStack<E> {
 

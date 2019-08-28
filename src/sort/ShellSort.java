@@ -10,7 +10,6 @@ package sort;
  * odd      9 * 4^i - 9 * 2^i + 1   1,19,109,505,2161
  * even     4^i - 3 * 2^i + 1       -1,-1,5,41,209
  * 1,5,19,41,109,209,505...
- * @author yehaoyu
  */
 public class ShellSort extends AbstractSortAlgorithm {
     @Override

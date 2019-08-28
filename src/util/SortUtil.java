@@ -4,7 +4,6 @@ import sort.*;
 
 /**
  * 排序工具类
- * @author 叶皓宇
  */
 public class SortUtil {
     private static AbstractSortAlgorithm sortAlg;

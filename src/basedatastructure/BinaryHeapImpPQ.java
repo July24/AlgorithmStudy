@@ -4,7 +4,6 @@ package basedatastructure;
  * 二叉堆实现的优先队列
  *      数组0位不用，从1位开始
  *      数组中的第i个元素，2i，2i+1为他的子元素，i/2为他的父元素
- * @author 叶皓宇
  */
 public class BinaryHeapImpPQ <E extends Comparable<E>> extends AbstractPriorityQueue<E> {
     public BinaryHeapImpPQ(QueueType queueType) {

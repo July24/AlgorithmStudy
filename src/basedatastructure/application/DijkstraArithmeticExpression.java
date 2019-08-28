@@ -6,7 +6,6 @@ import basedatastructure.ResizingArrayStack;
 
 /**
  * Dijkstra arithmetic expression algorithm.
- * @author yehaoyu
  */
 public class DijkstraArithmeticExpression {
     private EasyStack<Double> valueStack;

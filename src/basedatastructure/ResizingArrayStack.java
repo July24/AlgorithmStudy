@@ -2,7 +2,6 @@ package basedatastructure;
 
 /**
  * Resizing array implement Stack.
- * @author yehaoyu
  */
 public class ResizingArrayStack<E> implements EasyStack<E>{
 

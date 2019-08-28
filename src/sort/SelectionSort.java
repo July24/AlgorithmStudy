@@ -2,7 +2,6 @@ package sort;
 
 /**
  * Selection sort.
- * @author yehaoyu
  */
 public class SelectionSort extends AbstractSortAlgorithm {
     @Override

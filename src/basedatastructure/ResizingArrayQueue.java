@@ -2,7 +2,6 @@ package basedatastructure;
 
 /**
  * Resizing array implement queue.
- * @author yehaoyu
  */
 public class ResizingArrayQueue<E> implements EasyQueue<E>{
     private E[] elements;

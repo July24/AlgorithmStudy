@@ -4,7 +4,6 @@ import sort.CompareOperator;
 
 /**
  * 基于遍历实现的优先队列.
- * @author 叶皓宇
  */
 public class TraverseImpPQ<E extends Comparable<E>> extends AbstractPriorityQueue<E> {
 

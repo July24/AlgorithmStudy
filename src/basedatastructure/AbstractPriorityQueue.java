@@ -4,7 +4,6 @@ import sort.CompareOperator;
 
 /**
  * 抽象优先队列
- * @author 叶皓宇
  */
 public abstract class AbstractPriorityQueue<E extends Comparable<E>> extends CompareOperator {
     protected QueueType queueType;

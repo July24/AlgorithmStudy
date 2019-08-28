@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 /**
  * 二叉搜索树实现的符号表
- * @author 叶皓宇
  */
 public class BinarySearchTreeST<Key extends Comparable<Key>, Value> extends AbstractKeyOrderedSymbolTable<Key, Value> {
     private Node root;

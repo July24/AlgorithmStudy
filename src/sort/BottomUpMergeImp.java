@@ -3,7 +3,6 @@ package sort;
 /**
  * 自下而上的归并排序
  * 从长度为1的数组开始合并，每次增长2倍
- * @author 叶皓宇
  */
 public class BottomUpMergeImp extends BaseMergeSort {
     @Override

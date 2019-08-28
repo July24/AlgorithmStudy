@@ -3,7 +3,6 @@ package unionfind;
 /**
  * Updated quick union algorithm.
  * Using weighting and path compress.
- * @author yehaoyu
  */
 public class UpdateQuickUnion extends BaseUnionFindAlgorithm{
     private int[] sz;

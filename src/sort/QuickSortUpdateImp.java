@@ -7,7 +7,6 @@ import util.SortUtil;
  * 1.小数组采用插入排序，不再递归
  * 2.切分元素的选择采用三取样切分
  *      比较数组的low，high，（low+high）/2取其中位数放到low当作切分元素
- * @author 叶皓宇
  */
 public class QuickSortUpdateImp extends QuickSort {
     private static int CUTOFF = 10;

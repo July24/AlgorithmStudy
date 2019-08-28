@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 /**
  * 基于链表的符号表
- * @author 叶皓宇
  */
 public class LinkedListST<Key, Value> extends AbstractSymbolTable<Key, Value> {
     private Node first;

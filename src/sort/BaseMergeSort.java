@@ -2,7 +2,6 @@ package sort;
 
 /**
  * 归并排序
- * @author 叶皓宇
  */
 public abstract class BaseMergeSort extends AbstractSortAlgorithm {
     Comparable[] aux;

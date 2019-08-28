@@ -6,7 +6,6 @@ import java.util.Arrays;
  * 索引优先队列.
  *  用一个索引数组保存元素在数组中的位置
  *  插入队列中时，可看作将一个整数和一个对象相关联，使得我们可以引用队列中的元素
- * @author 叶皓宇
  */
 public class IndexPQ<E extends Comparable<E>> {
     protected QueueType queueType;

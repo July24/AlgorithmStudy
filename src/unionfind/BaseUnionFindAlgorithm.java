@@ -2,7 +2,6 @@ package unionfind;
 
 /**
  * Union find algorithm.
- * @author yehaoyu
  */
 public abstract class BaseUnionFindAlgorithm {
     protected int[] ids;
